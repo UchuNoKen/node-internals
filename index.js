@@ -1,7 +1,3 @@
-process.env.UV_THREADPOOL_SIZE = 1;
-const cluster = require('cluster');
-
-
 const express = require('express');
 const crypto = require('crypto');
 const app = express();
